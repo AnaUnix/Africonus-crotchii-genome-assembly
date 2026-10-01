@@ -17,6 +17,9 @@
 
 ## Bioinformatic pipeline
 
+The complete command-line workflow is available in
+[the Bash pipeline](scripts/Acrot_pipeline.sh)
+
 ### 1. Genome assembly
 
 **Software:** Hifiasm, BLAST, BlobTools.

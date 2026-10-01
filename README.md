@@ -18,7 +18,7 @@
 ## Bioinformatic pipeline
 
 The complete command-line workflow is available in
-[the Bash pipeline](Acrot_pipeline.sh)
+[the Bash pipeline](scripts)
 
 ### 1. Genome assembly
 

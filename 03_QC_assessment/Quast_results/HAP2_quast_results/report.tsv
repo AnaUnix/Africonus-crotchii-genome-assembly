@@ -1,0 +1,23 @@
+Assembly	hic_output
+# contigs (>= 0 bp)	3873
+# contigs (>= 1000 bp)	3873
+# contigs (>= 5000 bp)	3873
+# contigs (>= 10000 bp)	3873
+# contigs (>= 25000 bp)	3828
+# contigs (>= 50000 bp)	2639
+Total length (>= 0 bp)	3175209571
+Total length (>= 1000 bp)	3175209571
+Total length (>= 5000 bp)	3175209571
+Total length (>= 10000 bp)	3175209571
+Total length (>= 25000 bp)	3174189581
+Total length (>= 50000 bp)	3128738806
+# contigs	3873
+Largest contig	147317800
+Total length	3175209571
+GC (%)	43.18
+N50	78584641
+N90	311148
+auN	72213774.5
+L50	17
+L90	312
+# N's per 100 kbp	57.79

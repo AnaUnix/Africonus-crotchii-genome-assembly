@@ -1,0 +1,76 @@
+~/quast-5.2.0/quast.py ~/HiRise/Hap2/hic_output.fasta -t 1 --large --gene-finding -o HAP2_quast_results
+
+Version: 5.2.0, 3d87c606
+
+System information:
+  OS: Linux-3.16.0-4-amd64-x86_64-with-glibc2.10 (linux_64)
+  Python version: 3.8.10
+  CPUs number: 64
+
+Started: 2024-10-08 17:10:19
+
+Logging to ~/HAP2_quast_results/quast.log
+
+CWD: ~
+Main parameters: 
+  MODE: large, threads: 1, eukaryotic: true, min contig length: 3000, min alignment length: 500, \
+  min alignment IDY: 95.0, ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 7000
+
+Contigs:
+  Pre-processing...
+  ~/HiRise/Hap2/hic_output.fasta ==> hic_output
+
+2024-10-08 17:14:38
+Running Basic statistics processor...
+  Contig files: 
+    hic_output
+  Calculating N50 and L50...
+    hic_output, N50 = 78584641, L50 = 17, auN = 72213774.5, Total length = 3175209571, GC % = 43.18, # N's per 100 kbp =  57.79
+  Drawing Nx plot...
+    saved to ~/HAP2_quast_results/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to ~/HAP2_quast_results/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to ~/HAP2_quast_results/basic_stats/GC_content_plot.pdf
+  Drawing hic_output GC content plot...
+    saved to ~/HAP2_quast_results/basic_stats/hic_output_GC_content_plot.pdf
+Done.
+
+2024-10-08 17:20:49
+Running GeneMark-ES...
+  hic_output
+    perl -I ~/quast-5.2.0/quast_libs/genemark-es/lib ~/quast-5.2.0/quast_libs/genemark-es/linux_64/gmes_petap.pl \
+    --ES --cores 1 --sequence HAP2_quast_results/quast_corrected_input/hic_output.fasta \
+    --out HAP2_quast_results/predicted_genes/tmphic_output > HAP2_quast_results/predicted_genes/hic_output_genemark.stderr \
+    2> HAP2_quast_results/predicted_genes/hic_output_genemark.stderr
+    The tool returned non-zero. See HAP2_quast_results/predicted_genes/hic_output_genemark.stderr for stderr.
+
+WARNING: License period for GeneMark has ended! 
+To update license, please visit http://exon.gatech.edu/GeneMark/license_download.cgi page and fill in the form.
+You should choose GeneMarkS tool and your operating system (note that GeneMark is free for non-commercial use).
+Download the license key and replace your ~/.gm_key with the updated version. After that you can restart QUAST.
+
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2024-10-08 17:49:21
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating PDF with all tables and plots...
+  2 of 2: Creating Icarus viewers...
+Done
+
+2024-10-08 17:50:22
+RESULTS:
+  Text versions of total report are saved to ~/HAP2_quast_results/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to ~/HAP2_quast_results/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to ~/HAP2_quast_results/report.html
+  PDF version (tables and plots) is saved to ~/HAP2_quast_results/report.pdf
+  Icarus (contig browser) is saved to ~/HAP2_quast_results/icarus.html
+  Log is saved to ~/HAP2_quast_results/quast.log
+
+Finished: 2024-10-08 17:50:23
+Elapsed time: 0:40:03.799720
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

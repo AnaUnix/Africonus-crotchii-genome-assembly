@@ -1,0 +1,25 @@
+All statistics are based on contigs of size >= 3000 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    hic_output
+# contigs (>= 0 bp)         3491      
+# contigs (>= 1000 bp)      3491      
+# contigs (>= 5000 bp)      3490      
+# contigs (>= 10000 bp)     3489      
+# contigs (>= 25000 bp)     3377      
+# contigs (>= 50000 bp)     1778      
+Total length (>= 0 bp)      2276477405
+Total length (>= 1000 bp)   2276477405
+Total length (>= 5000 bp)   2276476343
+Total length (>= 10000 bp)  2276468302
+Total length (>= 25000 bp)  2273965579
+Total length (>= 50000 bp)  2215325590
+# contigs                   3490      
+Largest contig              114775838 
+Total length                2276476343
+GC (%)                      43.21     
+N50                         60234464  
+N90                         288813    
+auN                         54708386.7
+L50                         16        
+L90                         188       
+# N's per 100 kbp           79.86     

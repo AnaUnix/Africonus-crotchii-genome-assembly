@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: eukaryota_odb12 (Creation date: 2025-04-11, number of genomes: 456, number of BUSCOs: 129)
+# Summarized benchmarking in BUSCO notation for file Acrot_hap2_braker.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:81.4%[S:69.8%,D:11.6%],F:6.2%,M:12.4%,n:129	   
+	105	Complete BUSCOs (C)			   
+	90	Complete and single-copy BUSCOs (S)	   
+	15	Complete and duplicated BUSCOs (D)	   
+	8	Fragmented BUSCOs (F)			   
+	16	Missing BUSCOs (M)			   
+	129	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

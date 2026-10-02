@@ -1,0 +1,17 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: mollusca_odb12 (Creation date: 2025-04-11, number of genomes: 36, number of BUSCOs: 4421)
+# Summarized benchmarking in BUSCO notation for file Acrot_hap1_braker.aa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:49.9%[S:38.7%,D:11.2%],F:6.0%,M:44.1%,n:4421	   
+	2204	Complete BUSCOs (C)			   
+	1711	Complete and single-copy BUSCOs (S)	   
+	493	Complete and duplicated BUSCOs (D)	   
+	266	Fragmented BUSCOs (F)			   
+	1951	Missing BUSCOs (M)			   
+	4421	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

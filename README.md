@@ -2,7 +2,7 @@
  This repository contains the computational pipeline, scripts, and genomic resources for the haplotype-resolved, chromosome-level genome assembly of the Cabo Verde venomous snail *Africonus crotchii*.
  
  ## Project Overview
- Bioinformatic pipeline for haplotype-resolved genome assembly, annotation, and comparative genomic analysis of *Africonus crotchii*using PacBio HiFi, Omni-C, and RNA-seq data.
+ Bioinformatic pipeline for haplotype-resolved genome assembly, annotation, and comparative genomic analysis of *Africonus crotchii* using PacBio HiFi, Omni-C, and RNA-seq data.
  The workflow generates and evaluates two haplotype-resolved chromosome-scale genome assemblies, each organized into 35 pseudochromosomes.
 
  ## Genome assembly highlights

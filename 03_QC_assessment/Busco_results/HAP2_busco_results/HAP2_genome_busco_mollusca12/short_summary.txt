@@ -1,0 +1,30 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: mollusca_odb12 (Creation date: 2025-04-11, number of genomes: 36, number of BUSCOs: 4421)
+# Summarized benchmarking in BUSCO notation for file hic_output.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:91.6%[S:76.0%,D:15.6%],F:3.1%,M:5.3%,n:4421,E:22.8%	   
+	4050	Complete BUSCOs (C)	(of which 923 contain internal stop codons)		   
+	3361	Complete and single-copy BUSCOs (S)	   
+	689	Complete and duplicated BUSCOs (D)	   
+	138	Fragmented BUSCOs (F)			   
+	233	Missing BUSCOs (M)			   
+	4421	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	3873	Number of scaffolds
+	22224	Number of contigs
+	3175209571	Total length
+	0.058%	Percent gaps
+	78 Mbp	Scaffold N50
+	200 kbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

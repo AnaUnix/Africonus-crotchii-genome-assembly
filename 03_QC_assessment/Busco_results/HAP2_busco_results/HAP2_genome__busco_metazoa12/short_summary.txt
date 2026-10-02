@@ -1,0 +1,30 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: metazoa_odb12 (Creation date: 2025-04-11, number of genomes: 206, number of BUSCOs: 672)
+# Summarized benchmarking in BUSCO notation for file hic_output.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:94.3%[S:86.2%,D:8.2%],F:2.4%,M:3.3%,n:672,E:26.3%	   
+	634	Complete BUSCOs (C)	(of which 167 contain internal stop codons)		   
+	579	Complete and single-copy BUSCOs (S)	   
+	55	Complete and duplicated BUSCOs (D)	   
+	16	Fragmented BUSCOs (F)			   
+	22	Missing BUSCOs (M)			   
+	672	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	3873	Number of scaffolds
+	22224	Number of contigs
+	3175209571	Total length
+	0.058%	Percent gaps
+	78 Mbp	Scaffold N50
+	200 kbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

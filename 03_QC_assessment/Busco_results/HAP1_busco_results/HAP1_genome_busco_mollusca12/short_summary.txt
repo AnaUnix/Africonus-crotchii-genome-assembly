@@ -1,0 +1,30 @@
+# BUSCO version is: 6.0.0 
+# The lineage dataset is: mollusca_odb12 (Creation date: 2025-04-11, number of genomes: 36, number of BUSCOs: 4421)
+# Summarized benchmarking in BUSCO notation for file /users-d1/aherraez/Africonus_crotchii/Dovetail_MUS4382/HiRise/Hap1/hic_output.fasta
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:75.7%[S:66.0%,D:9.6%],F:5.5%,M:18.8%,n:4421,E:23.4%	   
+	3345	Complete BUSCOs (C)	(of which 783 contain internal stop codons)		   
+	2920	Complete and single-copy BUSCOs (S)	   
+	425	Complete and duplicated BUSCOs (D)	   
+	244	Fragmented BUSCOs (F)			   
+	832	Missing BUSCOs (M)			   
+	4421	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	3491	Number of scaffolds
+	21672	Number of contigs
+	2276477405	Total length
+	0.080%	Percent gaps
+	60 Mbp	Scaffold N50
+	141 kbp	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.18-r281
+	miniprot_align: 0.18-r281

@@ -9,7 +9,7 @@ The BUSCO inputs were generated in genome mode using the same `mollusca_odb12` l
 ## Files
 
 ```text
-BUSCO_comparison/
+BUSCO_completeness/
 ├── matrix_hap1_hap2.tsv
 ├── BUSCO_locus_flank_classification.tsv
 ├── missing_to_complete_hap2_coords.tsv

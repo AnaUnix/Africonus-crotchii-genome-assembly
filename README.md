@@ -1,4 +1,4 @@
-# **Africonus crotchii** genome assembly
+# *Africonus crotchii* genome assembly
  This repository contains the computational pipeline, scripts, and genomic resources for the haplotype-resolved, chromosome-level genome assembly of the Cabo Verde venomous snail *Africonus crotchii*.
  
  ## Project Overview

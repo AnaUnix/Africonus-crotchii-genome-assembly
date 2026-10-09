@@ -48,5 +48,5 @@ The increase in assembly length exactly matches 100 bp per reported HiRise join 
 
 ## Pseudochromosomes
 
-The final project chromosome set contains 35 pseudochromosomes for each haplotype. `pseudochromosome_list.tsv` records the Scaffold_1–Scaffold_35 identifiers used for the chromosome-scale assemblies.
+The final project chromosome set contains 35 pseudochromosomes for each haplotype. Scaffold_1–Scaffold_35 identifiers were used for the chromosome-scale assemblies.
 

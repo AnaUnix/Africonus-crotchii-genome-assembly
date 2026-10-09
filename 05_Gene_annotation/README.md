@@ -11,8 +11,8 @@ BRAKER3_annotation/
 └── hap2_braker.gz
     ├── hap2_braker.gtf
     ├── hap2_braker_cds.fna
-    └── hap2_braker_proteins.faa 
-
+    └── hap2_braker_proteins.faa
+´´´
 
 ### NCBI submission annotation
 

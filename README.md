@@ -64,16 +64,24 @@ The complete command-line workflow is available in
 
 ### 6. Haplotype comparison
 
-**Software:** minimap2, D-GENIES, MCScanX, SynVisio, BUSCO, and custom Python scripts.
+**Software:** minimap2, D-GENIES, BUSCO, and custom Python scripts.
 
-- **Input:** Both haplotype assemblies, BRAKER3 annotations, repeat annotations, BUSCO results, and reference cone snail genomes.
+- **Input:** Both haplotype assemblies, BRAKER3 annotations, repeat annotations, and BUSCO results.
 - **Workflow:**
   - Comparison of gene, exon, and intron length distributions.
   - Comparison of repeat landscapes.
   - Whole-genome alignments and structural collinearity.
   - Ortholog-level BUSCO completeness comparisons and investigation of missing genomic regions.
-  - Interspecific synteny analyses with *L. ventricosus* and *K. canariensis*.
 - **Output:** Comparative statistics, boxplots, dot plots, BUSCO comparison tables, and chromosomal synteny visualizations.
+
+### 7. Synteny Analyses
+
+**Software:** MCScanX, SynVisio.
+
+- **Input:** Both haplotype assemblies, BRAKER3 annotations, and reference cone snail genomes and genome annotations.
+- **Workflow:**
+  - Interspecific synteny analyses with *L. ventricosus* and *K. canariensis*.
+- **Output:** Interspecific chromosomal synteny visualizations.
 
 ## Software and dependencies
 

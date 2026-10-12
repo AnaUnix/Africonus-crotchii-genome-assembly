@@ -79,8 +79,7 @@ The complete command-line workflow is available in
 **Software:** MCScanX, SynVisio.
 
 - **Input:** Both haplotype assemblies, BRAKER3 annotations, and reference cone snail genomes and genome annotations.
-- **Workflow:**
-  - Interspecific synteny analyses with *L. ventricosus* and *K. canariensis*.
+- **Workflow:** Interspecific synteny analyses with *L. ventricosus* and *K. canariensis*.
 - **Output:** Interspecific chromosomal synteny visualizations.
 
 ## Software and dependencies
